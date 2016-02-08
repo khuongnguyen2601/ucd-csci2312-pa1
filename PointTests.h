@@ -23,7 +23,7 @@ void test_point_figures(ErrorContext &ec, unsigned int numRuns);
 // - - - - - - - - - Tests: Area - - - - - - - - - -
 
 // forward declaration of computeArea
-double computeArea(const Point &p1, const Point &p2, const Point &p3);
+double computeArea(Point &p1, Point &p2, Point &p3);
 
 // point-based area
 void test_area(ErrorContext &ec, unsigned int numRuns);

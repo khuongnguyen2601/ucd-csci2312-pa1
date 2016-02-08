@@ -104,7 +104,7 @@ void test_point_figures(ErrorContext &ec, unsigned int numRuns) {
 
     for (int run = 0; run < numRuns; run++) {
 
-        ec.DESC("2d triangle");
+        ec.DESC("3d triangle");
         {
             Point p1(0, 0, 0), p2(3, 0, 0), p3(0, 4, 0);
 
